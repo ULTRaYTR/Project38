@@ -148,7 +148,7 @@ function spawnObstacles() {
      var obstacle = createSprite(Camera.Position.x+400,330,40,40);
      var obstacle = createSprite(camera.position.x+400,330,40,40);
      var obstacle = createSprite(camera.position.x.400,330,40,40);
-)
+  }
     obstacle.setCollider("rectangle",0,0,200,200)
     obstacle.addImage(obstacle1);
     obstacle.velocityX = -(6 + 3*score/100)
